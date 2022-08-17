@@ -1,0 +1,64 @@
+/*Selectors examples*/
+
+
+/*Element selectors, applies a rule for all elements related*/
+h1 {
+    color: purple;
+}
+
+/*ID selectors, calls an unique ID for an element*/
+
+#falafel{
+    color: green;
+}
+
+/*ID selectors, calls an unique ID for an element*/
+
+#dessert{
+    background-color: beige;
+}
+
+/*Class selectors, calls the class any with a dot*/
+
+.any{
+    background-color: aliceblue;
+}
+
+/*Element with class selector, calls the class*/
+
+p.text{
+    background-color: aquamarine;
+}
+
+/* Descendant selector: the h2 items within selected div*/
+
+#main h2{
+    color:brown
+}
+
+/*Child Selectors: an identifier on the selected div*/
+
+#main>h1{
+    color: gold;
+}
+
+/*:hover Pseudo-Class. Hoover over effect*/
+
+#main:hover{
+    color: black;
+}
+
+.main{
+    
+    border: 4px solid rgb(255, 102, 0);
+
+    
+}
+
+.child{
+    width: 50%;
+    padding: 20px;
+    border: 4px solid rgb(30, 255, 0);
+    margin: auto;
+    
+}
